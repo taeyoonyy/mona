@@ -10,6 +10,7 @@ const routes = [
     children: [
       {
         path: '/',
+        name: 'join',
         component: () => import('@/pages/default/Join.vue')
       }
     ]
@@ -20,6 +21,7 @@ const routes = [
     children: [
       {
         path: '/',
+        name: 'memo',
         component: () => import('@/pages/leftNav/Memo.vue')
       }
     ]
