@@ -5,7 +5,7 @@
         <v-col cols="12" align="center">
           <v-img
             style="width: 244px; height: 284px"
-            :src="require('@/img/Logo_01@3x.jpg')"
+            :src="require('@/img/Logo_01@3x.webp')"
           />
         </v-col>
       </v-row>
