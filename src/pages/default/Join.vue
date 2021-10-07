@@ -37,7 +37,7 @@
       </v-row>
       <v-row>
         <v-col cols="12" align="center" class="pt-2">
-          <button class="button">채널 입장하기 / 생성하기</button>
+          <join-modal></join-modal>
         </v-col>
       </v-row>
     </v-container>
@@ -45,7 +45,11 @@
 </template>
 
 <script>
+import JoinModal from '@/components/JoinModal.vue';
 export default {
+  components: {
+    JoinModal
+  },
   data() {
     return {
       channel: null,
@@ -87,13 +91,5 @@ export default {
   width: 480px;
   height: 88px;
   background-color: #e0e0e0;
-}
-.button {
-  width: 480px;
-  height: 88px;
-  background-color: black;
-  color: white;
-  font-size: 26px;
-  font-weight: 500;
 }
 </style>
