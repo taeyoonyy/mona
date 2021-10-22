@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="282" height="44">
+    <defs>
+        <clipPath id="a">
+            <path data-name="사각형 217" transform="translate(1307 112)" style="fill:#fff;stroke:#707070" d="M0 0h282v44H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="Share_btn_n" transform="translate(-1307 -112)" style="clip-path:url(#a)">
+        <g data-name="그룹 580">
+            <text data-name="✏️ Label" transform="translate(1457.995 140)" style="font-size:14px;font-family:NotoSansCJKkr-Regular,Noto Sans CJK KR"><tspan x="-25.76" y="0">공유하기</tspan></text>
+            <path data-name="패스 286" d="M0 0h16v16H0z" style="fill:none" transform="translate(1412 126)"/>
+            <path data-name="패스 287" d="M1423.862 136.658a1.862 1.862 0 0 0-1.263.5l-4.592-2.707a1.83 1.83 0 0 0 0-.914l4.541-2.683a1.911 1.911 0 0 0 1.314.529 1.958 1.958 0 1 0-1.932-1.958 2.164 2.164 0 0 0 .058.457l-4.541 2.685a1.911 1.911 0 0 0-1.314-.529 1.958 1.958 0 0 0 0 3.917 1.911 1.911 0 0 0 1.314-.529l4.586 2.715a1.865 1.865 0 0 0-.052.424 1.881 1.881 0 1 0 1.881-1.906z"/>
+        </g>
+    </g>
+</svg>
