@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="49" height="49">
+    <defs>
+        <filter id="a" x="0" y="0" width="49" height="49" filterUnits="userSpaceOnUse">
+            <feOffset dy="1"/>
+            <feGaussianBlur stdDeviation="1.5" result="blur"/>
+            <feFlood flood-opacity=".2"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="b" x="3" y="3.5" width="43" height="43.5" filterUnits="userSpaceOnUse">
+            <feOffset dy="2"/>
+            <feGaussianBlur stdDeviation=".5" result="blur-2"/>
+            <feFlood flood-opacity=".122"/>
+            <feComposite operator="in" in2="blur-2"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="c" x="3" y="3" width="43" height="43" filterUnits="userSpaceOnUse">
+            <feOffset dy="1"/>
+            <feGaussianBlur stdDeviation=".5" result="blur-3"/>
+            <feFlood flood-opacity=".141"/>
+            <feComposite operator="in" in2="blur-3"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g transform="translate(4.5 3.5)">
+        <g data-name="02dp">
+            <g style="opacity:.75;mix-blend-mode:multiply;isolation:isolate">
+                <rect data-name="Rectangle" width="40" height="40" rx="20" style="filter:url(#a)"/>
+                <rect data-name="Rectangle" width="40" height="40" rx="20" style="filter:url(#b)"/>
+                <rect data-name="Rectangle" width="40" height="40" rx="20" style="filter:url(#c)"/>
+            </g>
+            <rect data-name="Rectangle" width="40" height="40" rx="20"/>
+        </g>
+        <rect data-name="사각형 33" width="40" height="40" rx="20"/>
+    </g>
+    <path data-name="패스 83" d="M345.746 45.531A1.746 1.746 0 1 0 344 43.786a1.746 1.746 0 0 0 1.746 1.746m0 1.746a1.746 1.746 0 1 0 1.746 1.746 1.746 1.746 0 0 0-1.746-1.746m0 5.237a1.746 1.746 0 1 0 1.746 1.746 1.746 1.746 0 0 0-1.746-1.746" transform="translate(-321.395 -25.571)" style="fill:#fff"/>
+</svg>

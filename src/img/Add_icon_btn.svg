@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="49" height="49">
+    <defs>
+        <filter id="Rectangle" x="0" y="0" width="49" height="49" filterUnits="userSpaceOnUse">
+            <feOffset dy="1"/>
+            <feGaussianBlur stdDeviation="1.5" result="blur"/>
+            <feFlood flood-opacity=".2"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="Rectangle-2" x="3" y="3.5" width="43" height="43.5" filterUnits="userSpaceOnUse">
+            <feOffset dy="2"/>
+            <feGaussianBlur stdDeviation=".5" result="blur-2"/>
+            <feFlood flood-opacity=".122"/>
+            <feComposite operator="in" in2="blur-2"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="Rectangle-3" x="3" y="3" width="43" height="43" filterUnits="userSpaceOnUse">
+            <feOffset dy="1"/>
+            <feGaussianBlur stdDeviation=".5" result="blur-3"/>
+            <feFlood flood-opacity=".141"/>
+            <feComposite operator="in" in2="blur-3"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .cls-2{fill:#3041ff}
+        </style>
+    </defs>
+    <g id="Add_icon_btn" transform="translate(4.5 3.5)">
+        <g id="_02dp" data-name="02dp">
+            <g id="Shadow" style="opacity:.75;mix-blend-mode:multiply;isolation:isolate">
+                <g style="filter:url(#Rectangle)" transform="translate(-4.5 -3.5)">
+                    <rect id="Rectangle-4" data-name="Rectangle" class="cls-2" width="40" height="40" rx="20" transform="translate(4.5 3.5)"/>
+                </g>
+                <g style="filter:url(#Rectangle-2)" transform="translate(-4.5 -3.5)">
+                    <rect id="Rectangle-5" data-name="Rectangle" class="cls-2" width="40" height="40" rx="20" transform="translate(4.5 3.5)"/>
+                </g>
+                <g style="filter:url(#Rectangle-3)" transform="translate(-4.5 -3.5)">
+                    <rect id="Rectangle-6" data-name="Rectangle" class="cls-2" width="40" height="40" rx="20" transform="translate(4.5 3.5)"/>
+                </g>
+            </g>
+            <rect id="Rectangle-7" data-name="Rectangle" class="cls-2" width="40" height="40" rx="20"/>
+        </g>
+        <g id="그룹_366" data-name="그룹 366" transform="translate(0 .001)">
+            <rect id="사각형_33" data-name="사각형 33" class="cls-2" width="40" height="40" rx="20" transform="translate(0 -.001)"/>
+            <path id="패스_76" data-name="패스 76" d="M15.834 11.667h-4.167v4.167a.833.833 0 0 1-1.667 0v-4.167H5.833a.833.833 0 0 1 0-1.667H10V5.833a.833.833 0 0 1 1.667 0V10h4.167a.833.833 0 0 1 0 1.667z" transform="translate(9.02 9.104)" style="fill:#fff"/>
+        </g>
+    </g>
+</svg>

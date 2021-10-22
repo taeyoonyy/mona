@@ -8,4 +8,11 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.v-pagination__item {
+  box-shadow: none !important;
+}
+.v-pagination__navigation {
+  box-shadow: none !important                            ;
+}
+</style>
