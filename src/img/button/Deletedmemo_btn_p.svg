@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="154" height="66.5" viewBox="0 0 154 66.5">
+    <defs>
+        <clipPath id="a">
+            <path d="M2 0h152v66.5H0V2a2 2 0 0 1 2-2z" transform="translate(1697 89)" style="fill:#fafafa;opacity:.521"/>
+        </clipPath>
+    </defs>
+    <g data-name="Deletedmemo_btn_p" transform="translate(-1697 -89)" style="clip-path:url(#a)">
+        <path data-name="Rectangle" d="M1699 89h152v66.5h-154V91a2 2 0 0 1 2-2z"/>
+        <text data-name="✏️ Label" transform="translate(1753 128)" style="font-size:14px;font-family:NotoSansCJKkr-Regular,Noto Sans CJK KR;fill:#fff"><tspan x="0" y="0">삭제된 항목</tspan></text>
+        <path data-name="패스 282" d="M0 0h16v16H0z" transform="translate(1725.836 114.002)" style="fill:none"/>
+        <path data-name="패스 283" d="M5.832 16.867A1.705 1.705 0 0 0 7.5 18.6h6.659a1.705 1.705 0 0 0 1.665-1.733V8.2a1.705 1.705 0 0 0-1.665-1.733H7.5A1.705 1.705 0 0 0 5.832 8.2zm9.988-13h-2.08l-.591-.615A.823.823 0 0 0 12.566 3H9.087a.823.823 0 0 0-.583.251l-.591.615H5.832a.867.867 0 0 0 0 1.733h9.988a.867.867 0 0 0 0-1.733z" transform="translate(1722.836 111.2)" style="fill:#fff"/>
+    </g>
+</svg>

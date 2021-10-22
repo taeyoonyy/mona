@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="49" height="49">
+    <defs>
+        <filter id="Rectangle" x="0" y="0" width="49" height="49" filterUnits="userSpaceOnUse">
+            <feOffset dy="1"/>
+            <feGaussianBlur stdDeviation="1.5" result="blur"/>
+            <feFlood flood-opacity=".2"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="Rectangle-2" x="3" y="3.5" width="43" height="43.5" filterUnits="userSpaceOnUse">
+            <feOffset dy="2"/>
+            <feGaussianBlur stdDeviation=".5" result="blur-2"/>
+            <feFlood flood-opacity=".122"/>
+            <feComposite operator="in" in2="blur-2"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="Rectangle-3" x="3" y="3" width="43" height="43" filterUnits="userSpaceOnUse">
+            <feOffset dy="1"/>
+            <feGaussianBlur stdDeviation=".5" result="blur-3"/>
+            <feFlood flood-opacity=".141"/>
+            <feComposite operator="in" in2="blur-3"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .cls-2{fill:#fff;stroke:#000}.cls-4{stroke:none}.cls-5{fill:none}
+        </style>
+    </defs>
+    <g id="More_icon_btn_p" transform="translate(4.5 3.5)">
+        <g id="Add_btn">
+            <g id="_02dp" data-name="02dp">
+                <g id="Light_Elevation_02dp" data-name="Light 🌕/Elevation/02dp">
+                    <g id="Shadow" style="mix-blend-mode:multiply;isolation:isolate">
+                        <g style="filter:url(#Rectangle)" transform="translate(-4.5 -3.5)">
+                            <g id="Rectangle-4" data-name="Rectangle" class="cls-2" transform="translate(4.5 3.5)">
+                                <rect class="cls-4" width="40" height="40" rx="20"/>
+                                <rect class="cls-5" x=".5" y=".5" width="39" height="39" rx="19.5"/>
+                            </g>
+                        </g>
+                        <g style="filter:url(#Rectangle-2)" transform="translate(-4.5 -3.5)">
+                            <g id="Rectangle-5" data-name="Rectangle" class="cls-2" transform="translate(4.5 3.5)">
+                                <rect class="cls-4" width="40" height="40" rx="20"/>
+                                <rect class="cls-5" x=".5" y=".5" width="39" height="39" rx="19.5"/>
+                            </g>
+                        </g>
+                        <g style="filter:url(#Rectangle-3)" transform="translate(-4.5 -3.5)">
+                            <g id="Rectangle-6" data-name="Rectangle" class="cls-2" transform="translate(4.5 3.5)">
+                                <rect class="cls-4" width="40" height="40" rx="20"/>
+                                <rect class="cls-5" x=".5" y=".5" width="39" height="39" rx="19.5"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Rectangle-7" data-name="Rectangle" style="stroke-miterlimit:10;fill:#fff;stroke:#000">
+                    <rect class="cls-4" width="40" height="40" rx="20"/>
+                    <rect class="cls-5" x=".5" y=".5" width="39" height="39" rx="19.5"/>
+                </g>
+            </g>
+            <g id="사각형_33" data-name="사각형 33" class="cls-2">
+                <rect class="cls-4" width="40" height="40" rx="20"/>
+                <rect class="cls-5" x=".5" y=".5" width="39" height="39" rx="19.5"/>
+            </g>
+        </g>
+        <path id="패스_83" data-name="패스 83" d="M345.756 45.552A1.756 1.756 0 1 0 344 43.8a1.756 1.756 0 0 0 1.756 1.756m0 1.756a1.756 1.756 0 1 0 1.756 1.756 1.756 1.756 0 0 0-1.756-1.756m0 5.268a1.756 1.756 0 1 0 1.756 1.756 1.756 1.756 0 0 0-1.756-1.756" transform="translate(-325.785 -28.992)"/>
+    </g>
+</svg>
